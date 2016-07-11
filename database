@@ -1,0 +1,7 @@
+CREATE TABLE MedicineBox(BoxId INT NOT NULL, 
+NumberOfPills INT NOT NULL, StartingTime TIME ,
+TimeDuration INT , Mon BOOLEAN NOT NULL default 0,
+Tue BOOLEAN NOT NULL default 0,Wed BOOLEAN NOT NULL default 0,
+Thu BOOLEAN NOT NULL default 0,Fri BOOLEAN NOT NULL default 0,
+Sat BOOLEAN NOT NULL default 0,Sun BOOLEAN NOT NULL default 0,
+PRIMARY KEY(BoxId))
